@@ -25,6 +25,6 @@ jobs:
 
     - name: Build the Docker image
       run: |
-      docker build . -t jessewilliams94/continuous-php-image
+      docker build . -t jessewilliams94/continuous_php_image
       docker tag dagnym/continuous_php_image:latest public.ecr.aws/l5e2m6u3/dagnym/continuous_php_image:latest
       docker push public.ecr.aws/l5e2m6u3/dagnym/continuous_php_image:latest
